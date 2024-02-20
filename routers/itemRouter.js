@@ -44,6 +44,7 @@ router.post('/items', Auth, async (req, res) => {
 
 //update an item
 
+
 router.patch('/items/:id', Auth, async (req, res) => {
     const updates = Object.keys(req.body)
     const allowedUpdates = ['name', 'description', 'category', 'price']
