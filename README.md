@@ -1,2 +1,2 @@
-# farmx-bkd
-Backend API for Farmx written in Node and Express.
+# HarvestHive-bkd
+Backend API for HarvestHive written in Node and Express.
